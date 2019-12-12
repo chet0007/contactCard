@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher:400,400i,700,700i&display=swap');
+
+// Override Bootstrap variables FIRST
+$font-family-base: Philosopher, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$colors: (
+    "gray": hsl(210, 16%, 10%),
+    "white": hsl(210, 16%, 90%)
+);
+    
+
+$theme-colors: (
+  "primary": hsl(270, 50%, 40%),
+  "secondary": hsl(210, 16%, 20%),  
+  "light": hsl(134, 62%, 33%),
+  "dark": hsl(134, 62%, 33%)
+);
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$color: #bada55;
+$color2:hsl(134, 62%, 33%);
+$color3:hsl(210, 16%, 93%);
+$color4:hsl(270, 50%, 40%);
+$color5:hsl(210, 86%, 100%);
+$color6:hsl(210, 25%, 40%);
+$color7:hsl(210, 10%, 30%);
+
+body{
+    background-color: $color3;
+  
+}
+
+h1{
+    color: $color2;
+}
+
+// .my-4{
+//     margin:5rem;
+// }
+
+// .width {
+//     width: 80%;
+// }
+
+
+
+.navbar-dark  {
+    .navbar-brand{
+        color: $color5;
+    } 
+}
+
+.navbar{
+    background-color:$color4;
+    padding-bottom:0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: $color4;
+
+    .nav-link{
+        margin:0.6rem;
+        color: $color3;
+        transition: transform 0.5s;
+
+        &:hover {
+            background-color: $color2;
+            color: $color3;
+            transform: scale(1.1);
+        }
+
+        &:visited{
+            color: $color4;
+        }
+
+        &.active{
+          color: $color4;
+         
+        }
+    
+        // .profilePic{
+        //    transition: all 0.5s;
+            
+        // }
+
+        &:active {
+            transform: translate(0px, 5px);
+           
+                // .profilePic{
+                //     transform: rotate3D(1, 10, 0, 360deg) rotate(-3deg) scale(1.1, 1.1); 
+                    
+                // }
+            }
+        }
+    }
+
+ .list-group-item{
+    svg{
+        transition: all 0.5s;
+    }
+
+    &:hover {
+        background-color: $color2;
+        color: $color3;
+      svg{
+        transform: translateX(100%);
+      }   
+    }
+
+    &:focus {
+        svg{
+            transform: rotate(90deg);
+          
+        }
+    }
+
+    &:active {
+        transform: rotate(3deg);
+        background-color: $color4;
+    }
+}
+
+.jumbotron {
+    height:100vh;
+    
+}
+
+.card {
+    box-shadow: 5px 6px $color6;
+    transition: all 0.6s;
+   
+    &:hover {
+        transform: translate(0px, 5px) rotate(1.5deg) scale(1.1,1.1);
+        box-shadow: 3px 4px $color7;
+        // img {
+        //     transform: rotate(-1.5deg);
+        // }
+        .card-body {
+            transition: all 0.6s;
+            &:hover {
+                transform: scale(1.1, 1.1) rotate(-1.5deg);
+                background-color: $color2;
+                color: $color3;
+            }
+        }
+    }
+}
+
+header{
+    margin-top: 0rem;
+    padding: 3rem;
+    width: 100%;
+    min-height: 40vh;
+
+    img{
+        height: 20vh;
+        border-radius: 50%;
+        border: 3px solid $color2;
+        transition: all 3s, transform 1.5s;
+
+        &:hover {
+            transform: rotate3D(1, 10, 0, 360deg) rotate(-3deg) scale(1.1, 1.1);  
+            border: 3px solid $color4;         
+        }
+    }
+}
+
+// .modal-footer {
+//     .btn{
+//         background-color: $color2;
+//         transition: all 0.5s;
+//         &:hover {
+//             transform: scale(1.1, 1.1);
+//             background-color: $color4;
+//             color: $color3;
+//         }
+
+//     }
+// }
+
+.btn{
+    color: $color3;
+    border: $color3;
+    transition: all 0.5s;
+    &:hover{
+        transform: scale(1.1, 1.1);
+        background-color: $color4;
+    }
+}
+
+
+

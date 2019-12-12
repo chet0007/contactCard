@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
+    <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Home</title>
+</head>
+<body id="index" >
+    
+       
+   
+          
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+           
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand ml-auto px-3" >AC Website</a>
+            
+            <div class="collapse navbar-collapse px-3" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto px-4">
+                        <li class="nav-item px-2">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="profile.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                </ul>
+
+                <div class="d-flex justify-content-end">
+                        <button type="button" class="btn btn-outline-primary my-1 mx-2 px-3" data-toggle="modal" data-target="#exampleModal">
+                                More Info 
+                                </button>
+
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">My contact info</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        My email adress is: chet0007@algonquinlive.com. Please send me an email with your gitHub name and desired repo name, so I can add you as colaborator to view the code in my projects!
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="spinner-grow my-2"></div>
+                </div>
+            </div>
+        </nav>
+     
+    <div class="container">
+
+    <div class="jumbotron">
+        <header class="d-flex  justify-content-center ">
+            <img src="protorype.jpg" alt="photo" class="profilePic"/>
+            <div class="pl-3">        
+            <h1 class="display-4 text-center">Anatolie Chetreanu</h1>
+            <p class="lead text-center ml-3">Bellow is a list of some technologies I have learned to use this semester</p>
+            </div> 
+        </header>
+        <!-- <hr class="my-4"> -->
+
+        <div class="row">
+            <div class="col-4">
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action" id="list-html-list" data-toggle="list" href="#list-html" role="tab" aria-controls="html">HTML &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <svg class="bi bi-chevron-right" width="32" height="32" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z" clip-rule="evenodd"/></svg></a>
+
+                    <a class="list-group-item list-group-item-action" id="list-css-list" data-toggle="list" href="#list-css" role="tab" aria-controls="css">CSS &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<svg class="bi bi-chevron-right" width="32" height="32" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z" clip-rule="evenodd"/></svg></a>
+
+                    <a class="list-group-item list-group-item-action" id="list-css-list" data-toggle="list" href="#list-js" role="tab" aria-controls="js">Java Script &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<svg class="bi bi-chevron-right" width="32" height="32" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z" clip-rule="evenodd"/></svg></a>
+
+                    <a class="list-group-item list-group-item-action" id="list-ps-list" data-toggle="list" href="#list-ps" role="tab" aria-controls="ps"> Photo Shop &nbsp &nbsp &nbsp &nbsp &nbsp<svg class="bi bi-chevron-right" width="32" height="32" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z" clip-rule="evenodd"/></svg></a>
+
+                    <a class="list-group-item list-group-item-action" id="list-ai-list" data-toggle="list" href="#list-ai" role="tab" aria-controls="ai">Illustrator &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <svg class="bi bi-chevron-right" width="32" height="32" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z" clip-rule="evenodd"/></svg></a>
+
+                    <a class="list-group-item list-group-item-action" id="list-bs-list" data-toggle="list" href="#list-bs" role="tab" aria-controls="bs"> Bootstrap &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <svg class="bi bi-chevron-right" width="32" height="32" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z" clip-rule="evenodd"/></svg></a>
+                </div>
+            </div>
+
+            <div class="col-8">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="list-html" role="tabpanel" aria-labelledby="list-html-list"><i class="fab fa-java"></i>
+                        <div class="row">
+                            <div class="col-8">
+                             I have learned how to create a webpage with html. Learning the structure and process of building a full website. Learning all the proper html syntax.
+                             </div>
+                        <div class="col-4">
+                                <a href="http://www.w3.org/html/logo/">
+                                    <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" width="63" height="64" alt="HTML5 Powered" title="HTML5 Powered">
+                                    </a>
+                        </div>
+                        </div></div>
+
+                    <div class="tab-pane fade" id="list-css" role="tabpanel" aria-labelledby="list-css-list">
+                            <div class="row">
+                                    <div class="col-8">
+                                   I have learned how to style my website with css. Knowing how to grab than adjust specific elements of the webpage. Perfecting transitions and transforms.
+                                     </div>
+                                <div class="col-4">
+                                        <a href='https://svgshare.com/s/A8g' ><img src='https://svgshare.com/i/A8g.svg' title='Logo CSS3' width="63" height="64" /></a>
+                                </div>
+                            </div>
+                            
+                    </div>
+
+                    <div class="tab-pane fade" id="list-js" role="tabpanel" aria-labelledby="list-js-list">
+                            <div class="row">
+                                    <div class="col-8">
+                                           I have learned alot about JS this semester. I have learned to make fetch calls, to get json data. Than use that json data to display information on my web or app.
+                                     </div>
+                                <div class="col-4">
+                                        <a title="voodootikigod [MIT (http://opensource.org/licenses/mit-license.php)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Badge_js-strict.svg"><img width="63" height="64" alt="Badge js-strict" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Badge_js-strict.svg/256px-Badge_js-strict.svg.png"></a>
+                                </div>
+                            </div> </div>
+
+                    <div class="tab-pane fade" id="list-ps" role="tabpanel" aria-labelledby="list-ps-list">
+                            <div class="row">
+                                    <div class="col-8">
+                                     I have learned alot about PhotoShop this semester. Like adding cool efects to my images. And learning how to make a profesional business card.
+                                     </div>
+                                <div class="col-4">
+                                        <a title="Fred the Oyster [Public domain], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Adobe_Photoshop_CC_icon.svg"><img width="63" height="64" alt="Adobe Photoshop CC icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/512px-Adobe_Photoshop_CC_icon.svg.png"></a>
+                                </div>
+                            </div></div>
+
+                    <div class="tab-pane fade" id="list-ai" role="tabpanel" aria-labelledby="list-ai-list">
+                            <div class="row">
+                                    <div class="col-8">
+                                     I learned alot of school stuff with Illustrator this semester. Like Exporting splash screens for my app with EASE. Also beeing able to adjust the size of photo without distorting it is really cool.
+                                     </div>
+                                <div class="col-4">
+                                        <a title="Adobe Systems [Public domain], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Adobe_Illustrator_CC_icon.svg"><img width="63" height="64" alt="Adobe Illustrator CC icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/512px-Adobe_Illustrator_CC_icon.svg.png"></a>
+                                </div>
+                            </div></div>
+
+                    <div class="tab-pane fade" id="list-bs" role="tabpanel" aria-labelledby="list-bs-list">
+                            <div class="row">
+                                    <div class="col-8">
+                                     This is what i can do with BootStrap. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab perspiciatis architecto officia voluptatibus harum in modi inventore quae at aperiam, laudantium maxime doloremque fugit? Magnam repellat optio animi natus ea.
+                                     </div>
+                                <div class="col-4">
+                                        <a title="Bootstrap [Public domain], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Bootstrap_logo.svg"><img width="63" height="64" alt="Bootstrap logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png"></a>
+                                </div>
+                            </div></div>
+                </div>
+            </div>
+         </div>
+         <hr class="my-4">
+     </div>
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
